@@ -1,0 +1,9 @@
+﻿<Window x:Class="SmartTagCustomization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:SmartTagCustomization"
+        xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
+        Title="MainWindow" Height="650" Width="925" >
+
+    <dxrud:ReportDesigner x:Name="reportDesigner" />
+</Window>
