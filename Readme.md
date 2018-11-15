@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [XRProgressBar.cs](./CS/XRProgressBar.cs) (VB: [XRProgressBarDiagramItem.vb](./VB/XRProgressBarDiagramItem.vb))
+* [XRProgressBarDiagramItem.cs](./CS/XRProgressBarDiagramItem.cs) (VB: [XRProgressBarDiagramItem.vb](./VB/XRProgressBarDiagramItem.vb))
+* [XRProgressBarSmartTagViewModel.cs](./CS/XRProgressBarSmartTagViewModel.cs) (VB: [XRProgressBarSmartTagViewModel.vb](./VB/XRProgressBarSmartTagViewModel.vb))
+* [XtraReport1.cs](./CS/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/XtraReport1.vb))
+<!-- default file list end -->
 # WPF Report Designer - How to customize a control's smart tag
 
 
