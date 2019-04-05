@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
 * [XRProgressBar.cs](./CS/XRProgressBar.cs) (VB: [XRProgressBarDiagramItem.vb](./VB/XRProgressBarDiagramItem.vb))
 * [XRProgressBarDiagramItem.cs](./CS/XRProgressBarDiagramItem.cs) (VB: [XRProgressBarDiagramItem.vb](./VB/XRProgressBarDiagramItem.vb))
 * [XRProgressBarSmartTagViewModel.cs](./CS/XRProgressBarSmartTagViewModel.cs) (VB: [XRProgressBarSmartTagViewModel.vb](./VB/XRProgressBarSmartTagViewModel.vb))
