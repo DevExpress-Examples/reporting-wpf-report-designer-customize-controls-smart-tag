@@ -18,7 +18,7 @@ Namespace SmartTagCustomization
             If Not mode.HasValue Then
                 Return Nothing
             End If
-            If mode.Value Is DataBindingMode.Bindings Then
+            If mode.Value = DataBindingMode.Bindings Then
                 Return BindingTemplate
             Else
                 Return ExpressionTemplate

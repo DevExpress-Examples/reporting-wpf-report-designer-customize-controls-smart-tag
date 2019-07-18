@@ -11,17 +11,17 @@
                 xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
                 xmlns:dxrudt="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner/themekeys"
                 xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
-                xmlns:dxrude="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.Editors;assembly=DevExpress.Xpf.ReportDesigner.v17.2"
-                xmlns:xrdiagram="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.XRDiagram;assembly=DevExpress.Xpf.ReportDesigner.v17.2"
-                xmlns:xtrareports="clr-namespace:DevExpress.XtraReports;assembly=DevExpress.XtraReports.v17.2"
+                xmlns:dxrude="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.Editors;assembly=DevExpress.Xpf.ReportDesigner.v19.1"
+                xmlns:xrdiagram="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.XRDiagram;assembly=DevExpress.Xpf.ReportDesigner.v19.1"
+                xmlns:xtrareports="clr-namespace:DevExpress.XtraReports;assembly=DevExpress.XtraReports.v19.1"
                 StartupUri="MainWindow.xaml">
     
     <Application.Resources>
 
         <DataTemplate x:Key="dataBindingTemplate">
-            <dxlc:LayoutItem x:Name="DataBindings" Label="{dxrud:ReportDesignerStringId StringId=Properties_DataBinding}" >
+            <dxlc:LayoutItem x:Name="DataBindings" Label="{dxrud:ReportDesignerStringId StringId=Properties_DataBinding}">
                 <dxrude:PopupTreeListEdit EditValue="{Binding ProgressBinding, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                                          Style="{DynamicResource {dxrudt:SmartTagEditorsThemeKey ResourceKey=DataBindingEditorStyle}}"  />
+                                          Style="{DynamicResource {dxrudt:SmartTagEditorsThemeKey ResourceKey=DataBindingEditorStyle}}" />
             </dxlc:LayoutItem>
         </DataTemplate>
         
@@ -30,7 +30,7 @@
                 <dxe:PopupBaseEdit EditValue="{Binding ProgressBinding, UpdateSourceTrigger=PropertyChanged}" 
                                    ValidateOnEnterKeyPressed="True"
                                    ValidateOnTextInput="False"
-                                   Style="{DynamicResource {dxrudt:SmartTagEditorsThemeKey ResourceKey=PopupWithExpressionEditorStyle}}"/>
+                                   Style="{DynamicResource {dxrudt:SmartTagEditorsThemeKey ResourceKey=PopupWithExpressionEditorStyle}}" />
             </dxlc:LayoutItem>
         </DataTemplate>
 
@@ -38,7 +38,7 @@
                                                       BindingTemplate="{StaticResource dataBindingTemplate}"
                                                       ExpressionTemplate="{StaticResource expressionBindingTemplate}" />
 
-        <Style TargetType="{x:Type local:XRProgressBarDiagramItem}" BasedOn="{StaticResource {x:Type xrdiagram:XRControlDiagramItem}}" >
+        <Style TargetType="{x:Type local:XRProgressBarDiagramItem}" BasedOn="{StaticResource {x:Type xrdiagram:XRControlDiagramItem}}">
             <Setter Property="SmartTagTemplate">
                 <Setter.Value>
                     <DataTemplate>
@@ -71,10 +71,10 @@
             <dxlc:LayoutControl Width="345" MaxHeight="600">
                 <dxlc:LayoutGroup>
                     <dxlc:LayoutGroup Orientation="Vertical">
-                        <dxlc:LayoutItem >
+                        <dxlc:LayoutItem>
                             <TextBlock Text="This is a custom smartTag template" />
                         </dxlc:LayoutItem>
-                        <dxlc:LayoutItem Label="Check state" >
+                        <dxlc:LayoutItem Label="Check state">
                             <dxe:ComboBoxEdit EditValue="{Binding CheckState, UpdateSourceTrigger=PropertyChanged}"
                                           IsTextEditable="False"
                                           ItemsSource="{dxe:EnumItemsSource EnumType=forms:CheckState}"
