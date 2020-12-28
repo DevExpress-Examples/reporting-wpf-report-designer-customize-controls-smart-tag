@@ -8,20 +8,20 @@ Imports DevExpress.XtraReports.Configuration
 Imports DevExpress.XtraReports.Expressions
 
 Namespace SmartTagCustomization
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            ExpressionBindingDescriptor.SetPropertyDescription(GetType(XRProgressBar), "Progress", New ExpressionBindingDescription( { "BeforePrint" }, -1, New String(){}, Nothing))
-            InitializeComponent()
+		Public Sub New()
+			ExpressionBindingDescriptor.SetPropertyDescription(GetType(XRProgressBar), "Progress", New ExpressionBindingDescription( { "BeforePrint" }, -1, New String(){}, Nothing))
+			InitializeComponent()
 
-
-            Dim icon_Renamed = BitmapFrame.Create(AssemblyHelper.GetResourceUri(Me.GetType().Assembly, "progress.png"))
-            DevExpress.Xpf.Reports.UserDesigner.ReportDesigner.RegisterControl(Of XRProgressBar)(Function() New XRProgressBarDiagramItem(False), icon_Renamed)
-            reportDesigner.OpenDocument(New XtraReport1())
-        End Sub
-    End Class
+'INSTANT VB NOTE: The variable icon was renamed since Visual Basic does not handle local variables named the same as class members well:
+			Dim icon_Conflict = BitmapFrame.Create(AssemblyHelper.GetResourceUri(Me.GetType().Assembly, "progress.png"))
+			DevExpress.Xpf.Reports.UserDesigner.ReportDesigner.RegisterControl(Of XRProgressBar)(Function() New XRProgressBarDiagramItem(False), icon_Conflict)
+			reportDesigner.OpenDocument(New XtraReport1())
+		End Sub
+	End Class
 End Namespace
