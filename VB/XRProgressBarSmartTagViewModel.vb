@@ -1,4 +1,4 @@
-﻿Imports DevExpress.Mvvm.Native
+Imports DevExpress.Mvvm.Native
 Imports DevExpress.Xpf.Reports.UserDesigner.SmartTags
 Imports DevExpress.Xpf.Reports.UserDesigner.XRDiagram
 Imports SmartTagCustomization

@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 using System.Drawing;
 using DevExpress.Utils.Serializing;
 using DevExpress.XtraPrinting;

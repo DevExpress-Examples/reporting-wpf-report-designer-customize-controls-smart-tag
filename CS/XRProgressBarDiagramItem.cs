@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using DevExpress.Xpf.Reports.UserDesigner.SmartTags;
 using DevExpress.Xpf.Reports.UserDesigner.XRDiagram;
 using SmartTagCustomization;

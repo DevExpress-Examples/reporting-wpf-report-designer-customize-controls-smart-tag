@@ -1,4 +1,4 @@
-﻿using DevExpress.Mvvm.Native;
+using DevExpress.Mvvm.Native;
 using DevExpress.Xpf.Reports.UserDesigner.SmartTags;
 using DevExpress.Xpf.Reports.UserDesigner.XRDiagram;
 using SmartTagCustomization;

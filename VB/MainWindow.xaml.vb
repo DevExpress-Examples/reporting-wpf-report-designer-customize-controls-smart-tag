@@ -1,4 +1,4 @@
-﻿Imports System.Windows
+Imports System.Windows
 Imports System.Windows.Media.Imaging
 Imports DevExpress.Utils
 Imports DevExpress.Xpf.Reports.UserDesigner

@@ -11,9 +11,9 @@
                 xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
                 xmlns:dxrudt="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner/themekeys"
                 xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
-                xmlns:dxrude="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.Editors;assembly=DevExpress.Xpf.ReportDesigner.v22.2"
-                xmlns:xrdiagram="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.XRDiagram;assembly=DevExpress.Xpf.ReportDesigner.v22.2"
-                xmlns:xtrareports="clr-namespace:DevExpress.XtraReports;assembly=DevExpress.XtraReports.v22.2"
+                xmlns:dxrude="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.Editors;assembly=DevExpress.Xpf.ReportDesigner.v23.1"
+                xmlns:xrdiagram="clr-namespace:DevExpress.Xpf.Reports.UserDesigner.XRDiagram;assembly=DevExpress.Xpf.ReportDesigner.v23.1"
+                xmlns:xtrareports="clr-namespace:DevExpress.XtraReports;assembly=DevExpress.XtraReports.v23.1"
                 StartupUri="MainWindow.xaml">
     
     <Application.Resources>

@@ -1,4 +1,4 @@
-﻿Imports System.ComponentModel
+Imports System.ComponentModel
 Imports System.Drawing
 Imports DevExpress.Utils.Serializing
 Imports DevExpress.XtraPrinting

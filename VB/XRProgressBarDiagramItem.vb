@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports DevExpress.Xpf.Reports.UserDesigner.SmartTags
 Imports DevExpress.Xpf.Reports.UserDesigner.XRDiagram
 Imports SmartTagCustomization
