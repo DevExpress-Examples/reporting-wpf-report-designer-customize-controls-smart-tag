@@ -1,9 +1,9 @@
-﻿Imports DevExpress.Mvvm.Native
+Imports DevExpress.Mvvm.Native
 Imports DevExpress.Xpf.Reports.UserDesigner.SmartTags
 Imports DevExpress.Xpf.Reports.UserDesigner.XRDiagram
-Imports SmartTagCustomization
 
 Namespace SmartTagCustomization
+
     Public Class XRProgressBarSmartTagViewModel
         Inherits SmartTagViewModelBase
 
@@ -11,21 +11,23 @@ Namespace SmartTagCustomization
             MyBase.New(reportModel)
         End Sub
 
-        Public Property MaxValue() As Single
+        Public Property MaxValue As Single
             Get
-                Return CSng(GetPropertyValue(ExpressionHelper.GetPropertyName(Function(x As XRProgressBar) x.MaxValue)))
+                Return CSng(GetPropertyValue(ExpressionHelper.GetPropertyName(Function(ByVal x As XRProgressBar) x.MaxValue)))
             End Get
+
             Set(ByVal value As Single)
-                SetPropertyValue(ExpressionHelper.GetPropertyName(Function(x As XRProgressBar) x.MaxValue), value)
+                SetPropertyValue(ExpressionHelper.GetPropertyName(Function(ByVal x As XRProgressBar) x.MaxValue), value)
             End Set
         End Property
 
-        Public Property Progress() As Object
+        Public Property Progress As Object
             Get
-                Return DirectCast(GetPropertyValue(ExpressionHelper.GetPropertyName(Function(x As XRProgressBar) x.Progress)), Object)
+                Return CObj(GetPropertyValue(ExpressionHelper.GetPropertyName(Function(ByVal x As XRProgressBar) x.Progress)))
             End Get
+
             Set(ByVal value As Object)
-                SetPropertyValue(ExpressionHelper.GetPropertyName(Function(x As XRProgressBar) x.Progress), value)
+                SetPropertyValue(ExpressionHelper.GetPropertyName(Function(ByVal x As XRProgressBar) x.Progress), value)
             End Set
         End Property
     End Class
