@@ -24,3 +24,4 @@ It also shows how to create a smart tag for a custom control. For this, set the
 
 - [WPF - Smart Tag Overview](https://docs.devexpress.com/WPF/18096/whats-installed/smart-tags/smart-tag-overview)
 - [Reporting - Smart Tags](https://docs.devexpress.com/XtraReports/17560/web-reporting/end-user-report-designer-for-web/interface-elements/design-surface#smart-tags)
+- [Reporting - Use Custom Controls](https://docs.devexpress.com/XtraReports/2607/detailed-guide-to-devexpress-reporting/use-report-controls/use-custom-controls?p=netframework)
