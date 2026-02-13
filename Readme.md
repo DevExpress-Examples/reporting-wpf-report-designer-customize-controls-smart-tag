@@ -27,7 +27,7 @@ It also shows how to create a smart tag for a custom control. For this, set the
 - [Reporting - Smart Tags](https://docs.devexpress.com/XtraReports/17560/web-reporting/end-user-report-designer-for-web/interface-elements/design-surface#smart-tags)
 - [Reporting - Use Custom Controls](https://docs.devexpress.com/XtraReports/2607/detailed-guide-to-devexpress-reporting/use-report-controls/use-custom-controls?p=netframework)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-wpf-report-designer-customize-controls-smart-tag&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-wpf-report-designer-customize-controls-smart-tag&~~~was_helpful=no)
 
